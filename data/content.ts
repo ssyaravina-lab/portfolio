@@ -10,12 +10,32 @@ export const personalInfo = {
 export const summary =
   "I started as a textile & fashion designer and moved deliberately into designing learning systems with a focus on entrepreneurship, innovation, and decision-making under uncertainty. I led the student business incubator at BINUS University Bandung, where 40% of ventures remained active post-graduation, and convened DT4Life as a multi-stakeholder experiment to test whether Design Thinking can function as a life-level intervention, achieving 123.05% ROI and clear market pull in the personal development space. Across academia, government, and corporate settings, I work on the same problem from different angles: building programs, partnerships, systems and tools that translate mindset shifts into execution, market validation, founder self-efficacy, and measurable outcomes.";
 
-export const skills = [
-  "AI Tool Orchestration",
-  "Learning System Design",
-  "Business Ecosystem Building",
-  "Problem Formulation Under Uncertainty",
-  "Startup & SME Growth",
+export interface Skill {
+  name: string;
+  proof: string;
+}
+
+export const skills: Skill[] = [
+  {
+    name: "AI Tool Orchestration",
+    proof: "Multi-agent AI workflows that cut manual work ~70%, reducing hours to minutes",
+  },
+  {
+    name: "Learning System Design",
+    proof: "Built UX & Service Design of Monev-SRL, an internal venture assessment tool at BINUS",
+  },
+  {
+    name: "Business Ecosystem Building",
+    proof: "Designed BINUS incubation curriculum that produced 40% venture sustainability",
+  },
+  {
+    name: "Problem Formulation Under Uncertainty",
+    proof: "Double Diamond + JTBD applied across 50+ student teams",
+  },
+  {
+    name: "Startup & SME Growth",
+    proof: "Mentored 30+ studentpreneur teams in 3 years",
+  },
 ];
 
 export interface Experience {
