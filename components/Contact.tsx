@@ -18,8 +18,7 @@ export default function Contact() {
             >
               {personalInfo.email}
             </a>
-            <p className="font-bold">{personalInfo.phone}</p>
-            <p className="text-black/60 font-bold text-sm uppercase tracking-wider">
+<p className="text-black/60 font-bold text-sm uppercase tracking-wider">
               {personalInfo.location}
             </p>
           </div>
