@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#FF0000"/>
+  <!-- Life design canvas -->
+  <rect x="40" y="40" width="350" height="420" fill="#FFF" stroke="#000" stroke-width="4"/>
+  <!-- Feedback grid -->
+  <line x1="215" y1="40" x2="215" y2="460" stroke="#000" stroke-width="3"/>
+  <line x1="40" y1="250" x2="390" y2="250" stroke="#000" stroke-width="3"/>
+  <text x="80" y="80" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#000">WORKS</text>
+  <text x="240" y="80" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#000">FAILS</text>
+  <text x="55" y="290" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#000">QUESTIONS</text>
+  <text x="250" y="290" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#000">IDEAS</text>
+  <!-- Check marks / X marks -->
+  <text x="110" y="170" font-family="system-ui, sans-serif" font-size="60" font-weight="900" fill="#0000FF">+</text>
+  <text x="270" y="170" font-family="system-ui, sans-serif" font-size="60" font-weight="900" fill="#FF0000">x</text>
+  <text x="100" y="400" font-family="system-ui, sans-serif" font-size="60" font-weight="900" fill="#000">?</text>
+  <text x="270" y="400" font-family="system-ui, sans-serif" font-size="60" font-weight="900" fill="#FFFF00">!</text>
+  <!-- Right side: life experiments -->
+  <rect x="430" y="40" width="330" height="130" fill="#FFFF00" stroke="#000" stroke-width="4"/>
+  <rect x="430" y="185" width="330" height="130" fill="#000" stroke="#000" stroke-width="4"/>
+  <rect x="430" y="330" width="330" height="130" fill="#0000FF" stroke="#000" stroke-width="4"/>
+  <!-- Arrow pattern -->
+  <text x="450" y="110" font-family="system-ui, sans-serif" font-size="18" font-weight="900" fill="#000">OBSERVE → REFRAME</text>
+  <text x="450" y="260" font-family="system-ui, sans-serif" font-size="18" font-weight="900" fill="#FFF">EXPERIMENT → TEST</text>
+  <text x="450" y="405" font-family="system-ui, sans-serif" font-size="18" font-weight="900" fill="#FFF">ITERATE → GROW</text>
+  <!-- Number -->
+  <text x="660" y="490" font-family="system-ui, sans-serif" font-size="80" font-weight="900" fill="#000">03</text>
+</svg>

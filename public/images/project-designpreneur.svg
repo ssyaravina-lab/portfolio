@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#FFFF00"/>
+  <rect x="40" y="40" width="320" height="200" fill="none" stroke="#000" stroke-width="4"/>
+  <rect x="440" y="40" width="320" height="200" fill="#FF0000" stroke="#000" stroke-width="4"/>
+  <!-- Double Diamond -->
+  <polygon points="200,280 320,370 200,460" fill="#0000FF" stroke="#000" stroke-width="4"/>
+  <polygon points="320,280 200,370 320,460" fill="#0000FF" stroke="#000" stroke-width="4"/>
+  <polygon points="480,280 600,370 480,460" fill="#FF0000" stroke="#000" stroke-width="4"/>
+  <polygon points="600,280 480,370 600,460" fill="#FF0000" stroke="#000" stroke-width="4"/>
+  <!-- Grid lines -->
+  <line x1="60" y1="80" x2="340" y2="80" stroke="#000" stroke-width="3"/>
+  <line x1="60" y1="120" x2="340" y2="120" stroke="#000" stroke-width="3"/>
+  <line x1="60" y1="160" x2="340" y2="160" stroke="#000" stroke-width="3"/>
+  <line x1="60" y1="200" x2="340" y2="200" stroke="#000" stroke-width="3"/>
+  <rect x="460" y="60" width="120" height="30" fill="#000"/>
+  <rect x="460" y="110" width="200" height="30" fill="#000"/>
+  <rect x="460" y="160" width="160" height="30" fill="#000"/>
+  <!-- Text -->
+  <text x="100" y="350" font-family="system-ui, sans-serif" font-size="24" font-weight="900" fill="#FFF">DISCOVER</text>
+  <text x="500" y="350" font-family="system-ui, sans-serif" font-size="24" font-weight="900" fill="#FFF">DELIVER</text>
+  <!-- Corner marks -->
+  <rect x="660" y="280" width="100" height="180" fill="#000"/>
+  <text x="675" y="390" font-family="system-ui, sans-serif" font-size="60" font-weight="900" fill="#FFFF00">01</text>
+</svg>
